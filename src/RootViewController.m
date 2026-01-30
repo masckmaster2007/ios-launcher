@@ -610,7 +610,7 @@
 								  if (status != 0) {
 									  return completionHandler(NO, @"launcher.error.sign.invalidcert2".loc);
 								  }
-								  LCAppInfo* app = [[LCAppInfo alloc] initWithBundlePath:[[LCPath bundlePath] URLByAppendingPathComponent:@"com.robtop.geometryjump.app"].path];
+								  LCAppInfo* app = [[LCAppInfo alloc] initWithBundlePath:[[LCPath bundlePath] URLByAppendingPathComponent:@"be.dimisaio.dindegdps22.POUSSIN123.app"].path];
 								  [app patchExecAndSignIfNeedWithCompletionHandler:^(BOOL signSuccess, NSString* signError) {
 									  if (signError)
 										  return completionHandler(NO, signError);
@@ -649,7 +649,7 @@
 							if (status != 0) {
 								return completionHandler(NO, @"launcher.error.sign.invalidcert2".loc);
 							}
-							LCAppInfo* app = [[LCAppInfo alloc] initWithBundlePath:[[LCPath bundlePath] URLByAppendingPathComponent:@"com.robtop.geometryjump.app"].path];
+							LCAppInfo* app = [[LCAppInfo alloc] initWithBundlePath:[[LCPath bundlePath] URLByAppendingPathComponent:@"be.dimisaio.dindegdps22.POUSSIN123.app"].path];
 							[app patchExecAndSignIfNeedWithCompletionHandler:^(BOOL signSuccess, NSString* signError) {
 								if (signError)
 									return completionHandler(NO, signError);
@@ -709,7 +709,7 @@
 								  if (status != 0) {
 									  return completionHandler(NO, @"launcher.error.sign.invalidcert2".loc);
 								  }
-								  LCAppInfo* app = [[LCAppInfo alloc] initWithBundlePath:[[LCPath bundlePath] URLByAppendingPathComponent:@"com.robtop.geometryjump.app"].path];
+								  LCAppInfo* app = [[LCAppInfo alloc] initWithBundlePath:[[LCPath bundlePath] URLByAppendingPathComponent:@"be.dimisaio.dindegdps22.POUSSIN123.app"].path];
 								  [app patchExecAndSignIfNeedWithCompletionHandler:^(BOOL signSuccess, NSString* signError) {
 									  if (signError)
 										  return completionHandler(NO, signError);
@@ -757,7 +757,7 @@
 							if (status != 0) {
 								return completionHandler(NO, @"launcher.error.sign.invalidcert2".loc);
 							}
-							LCAppInfo* app = [[LCAppInfo alloc] initWithBundlePath:[[LCPath bundlePath] URLByAppendingPathComponent:@"com.robtop.geometryjump.app"].path];
+							LCAppInfo* app = [[LCAppInfo alloc] initWithBundlePath:[[LCPath bundlePath] URLByAppendingPathComponent:@"be.dimisaio.dindegdps22.POUSSIN123.app"].path];
 								[app patchExecAndSignIfNeedWithCompletionHandler:^(BOOL signSuccess, NSString* signError) {
 								if (signError)
 									return completionHandler(NO, signError);

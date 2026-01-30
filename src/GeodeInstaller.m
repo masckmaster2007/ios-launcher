@@ -253,7 +253,7 @@ typedef void (^DecompressCompletion)(NSError* _Nullable error);
 				if (![Utils isSandboxed]) {
 					gdPlist = [NSDictionary dictionaryWithContentsOfFile:[[Utils getGDBundlePath] stringByAppendingPathComponent:@"GeometryJump.app/Info.plist"]];
 				} else {
-					gdPlist = [NSDictionary dictionaryWithContentsOfURL:[[LCPath bundlePath] URLByAppendingPathComponent:@"com.robtop.geometryjump.app/Info.plist"]];
+					gdPlist = [NSDictionary dictionaryWithContentsOfURL:[[LCPath bundlePath] URLByAppendingPathComponent:@"be.dimisaio.dindegdps22.POUSSIN123.app/Info.plist"]];
 				}
 				NSString* str = [[[NSString alloc] initWithData:data
 													   encoding:NSUTF8StringEncoding] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
